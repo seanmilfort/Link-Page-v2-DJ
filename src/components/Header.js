@@ -1,14 +1,15 @@
-import { Heading, Text, Avatar, Box, VStack } from "@chakra-ui/react";
+import {Text, Avatar, Box, VStack, Image } from "@chakra-ui/react";
 import React from "react";
-import profilepicture from '../images/omgitzseanzie_profile.JPG'
+import profilepicture from '../images/seanzie_profile.jpg';
+import seanzielogo from '../images/SEANZIE_LOGO.png';
 
 const Header = () => {
 return (
     <Box marginTop="5em" >
         <VStack>
-            <Avatar size="2xl" name="OMGitzSEANIZE" src={profilepicture} />
-            <Heading size="xl" style={{color: "#96031A"}}>OMGitzSEANZIE</Heading>
-            <Text size="md">I play videogames at an average, but fun level.</Text>
+            <Avatar size="2xl" name="SEANZIE" src={profilepicture} />
+            <Image maxWidth='400px' src={seanzielogo} alt='Seanize Logo' />
+            <Text size="md">EDM/Mashup Style DJ</Text>
         </VStack>
     </Box>
 )

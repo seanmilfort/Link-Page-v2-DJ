@@ -4,32 +4,27 @@ import { HStack, Box } from "@chakra-ui/react";
 import {
     faTwitter,
     faInstagram,
-    faYoutube,
-    faTiktok,
+    faMixcloud,
     faFacebook,
   } from "@fortawesome/free-brands-svg-icons";
 
 const socials = [
   {
-    icon: faYoutube,
-    url: "https://www.youtube.com/@omgitzseanzie",
+    icon: faTwitter,
+    url: "https://twitter.com/djseanzie",
   },
-    {
-      icon: faTwitter,
-      url: "https://twitter.com/omgitzseanzie",
-    },
-    {
-      icon: faFacebook,
-      url: "https://facebook.com/omgitzseanzie",
-    },
-    {
-      icon: faInstagram,
-      url: "https://www.instagram.com/omgitzseanzie/",
-    },
-    {
-      icon: faTiktok,
-      url: "https://www.tiktok.com/@omgitzseanzie",
-    }
+  {
+    icon: faMixcloud,
+    url: "https://www.mixcloud.com/djseanzie/",
+  },
+  {
+    icon: faInstagram,
+    url: "https://www.instagram.com/djseanzie/",
+  },
+  {
+    icon: faFacebook,
+    url: "https://facebook.com/djseanzie",
+  }
   ];
 
 

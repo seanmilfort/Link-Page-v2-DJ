@@ -3,13 +3,21 @@ import { VStack, Box, Button } from "@chakra-ui/react";
 
 const socials = [
     {
-      text: "Watch Me Live on YouTube!",
-      url: "https://www.youtube.com/@OMGitzSEANZIE/live/",
+      text: "Latest Mix",
+      url: "https://newmix.djseanzie.club/",
     },
     {
-        text: "Coming Soon to Kick!",
-        url: "https://kick.com/omgitzseanzie",
-      }
+        text: "Live Streams!",
+        url: "https://www.mixcloud.com/live/djseanzie/",
+    },
+    {
+        text: "Spotify Playlists",
+        url: "https://spotify.djseanzie.club/",
+    },
+    {
+        text: "Website",
+        url: "https://djseanzie.club/",
+    },
   ];
 
 
@@ -17,7 +25,7 @@ const SocialButtons = () => {
     return (<Box marginTop="2em" >
         <VStack spacing={4}>
             {socials.map(socialMediaLinks => {
-                return <Box key={socialMediaLinks.url}><a href={socialMediaLinks.url}><Button style={{color: "#FBFFFE", backgroundColor: "#96031A", width: "400px"}}>{socialMediaLinks.text}</Button></a></Box>
+                return <Box key={socialMediaLinks.url}><a href={socialMediaLinks.url}><Button style={{color: "#000000", backgroundColor: "#FFFFFF", width: "400px"}}>{socialMediaLinks.text}</Button></a></Box>
             })}
         </VStack>
     </Box>)
