@@ -15,6 +15,10 @@ const socials = [
         url: "https://spotify.djseanzie.club/",
     },
     {
+        text: "YouTube Music Playlists",
+        url: "https://ytmusic.djseanzie.club",
+    },
+    {
         text: "Website",
         url: "https://djseanzie.club/",
     },
