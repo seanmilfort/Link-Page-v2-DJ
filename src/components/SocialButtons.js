@@ -11,15 +11,15 @@ const socials = [
         url: "https://www.mixcloud.com/live/djseanzie/",
     },
     {
-        text: "Spotify Playlists",
+        text: "Spotify Playlist",
         url: "https://spotify.djseanzie.club/",
     },
     {
-        text: "Apple Music Playlists",
+        text: "Apple Music Playlist",
         url: "https://applemusic.djseanzie.club",
     },
     {
-        text: "YouTube Music Playlists",
+        text: "YouTube Music Playlist",
         url: "https://ytmusic.djseanzie.club",
     },
     {
