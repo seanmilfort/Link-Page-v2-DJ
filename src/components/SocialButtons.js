@@ -16,7 +16,7 @@ const socials = [
     },
     {
         text: "Apple Music Playlist",
-        url: "https://applemusic.djseanzie.club",
+        url: "https://apple.djseanzie.club",
     },
     {
         text: "YouTube Music Playlist",
