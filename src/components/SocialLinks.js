@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { HStack, Box } from "@chakra-ui/react";
 import {
-    faTwitter,
+    faXTwitter,
     faInstagram,
     faMixcloud,
     faFacebook,
@@ -11,16 +11,16 @@ import {
 
 const socials = [
   {
-    icon: faTwitter,
-    url: "https://twitter.com/djseanzie",
-  },
-  {
     icon: faMixcloud,
     url: "https://www.mixcloud.com/djseanzie/",
   },
   {
     icon: faSoundcloud,
     url: "https://www.soundcloud.com/djseanzie/",
+  },
+  {
+    icon: faXTwitter,
+    url: "https://twitter.com/djseanzie",
   },
   {
     icon: faInstagram,
