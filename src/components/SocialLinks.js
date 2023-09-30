@@ -6,7 +6,8 @@ import {
     faInstagram,
     faMixcloud,
     faFacebook,
-    faSoundcloud
+    faSoundcloud,
+    faThreads
   } from "@fortawesome/free-brands-svg-icons";
 
 const socials = [
@@ -21,6 +22,10 @@ const socials = [
   {
     icon: faXTwitter,
     url: "https://twitter.com/djseanzie",
+  },
+  {
+    icon: faThreads,
+    url: "https://www.threads.net/@djseanzie",
   },
   {
     icon: faInstagram,
