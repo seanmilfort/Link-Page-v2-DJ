@@ -5,7 +5,7 @@ import seanzielogo from '../images/SEANZIE_LOGO.png';
 
 const Header = () => {
 return (
-    <Box marginTop="5em" >
+    <Box>
         <VStack>
             <Avatar size="2xl" name="SEANZIE" src={profilepicture} />
             <Image maxWidth='400px' src={seanzielogo} alt='Seanize Logo' />

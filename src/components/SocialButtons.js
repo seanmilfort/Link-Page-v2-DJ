@@ -33,7 +33,7 @@ const SocialButtons = () => {
     return (<Box marginTop="2em" >
         <VStack spacing={4}>
             {socials.map(socialMediaLinks => {
-                return <Box key={socialMediaLinks.url}><a href={socialMediaLinks.url}><Button style={{color: "#000000", backgroundColor: "#FFFFFF", width: "400px"}}>{socialMediaLinks.text}</Button></a></Box>
+                return <Box key={socialMediaLinks.url}><a href={socialMediaLinks.url}><Button style={{color: "#000000", backgroundColor: "#FFFFFF", width: "400px", maxWidth: "80%"}}>{socialMediaLinks.text}</Button></a></Box>
             })}
         </VStack>
     </Box>)
