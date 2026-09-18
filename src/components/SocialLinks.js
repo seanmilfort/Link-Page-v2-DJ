@@ -6,7 +6,7 @@ import {
     faInstagram,
     faMixcloud,
     faFacebook,
-    faSoundcloud,
+    // faSoundcloud,
     faThreads
   } from "@fortawesome/free-brands-svg-icons";
 
